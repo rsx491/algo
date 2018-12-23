@@ -1,4 +1,4 @@
-The implementing testing files of interest are the following and are denoted by appending "_test" to the file name.
+The implemented testing files of interest are the following and are denoted by appending "_test" to the file name.
 
 * quick_sort.pl
 * merge_sort.pl
