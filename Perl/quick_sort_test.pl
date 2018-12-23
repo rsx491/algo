@@ -9,10 +9,12 @@ sub quick_sort {
     quick_sort(grep $_ < $p, @_), $p, quick_sort(grep $_ >= $p, @_);
 }
 
+=pod
 sub rando {
 		my @range = ( -1_000_000 .. 1_000_000 );
 		my $random = $range[rand(@range)];
 }
+=cut
  
 #my @a = (4, 65, 2, -31, 0, 99, 83, 782, 1);
 #my @range = ( -1_000_000 .. 1_000_000 );
