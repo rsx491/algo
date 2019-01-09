@@ -8,7 +8,12 @@ The input was generated using an integer range generated of 2,000,001 signed/uns
 
 (shuffle) -> (reshuffle) -> (reshuffle_again)
 
-The averages for these 3 sorting algorithms can be summarized with the following final values:
+The averages (Perl) for these 3 sorting algorithms can be summarized with the following final values:
 * quick sort 12/seconds
 * merge sort 43/seconds
 * heap sort 47/seconds 
+
+The averages (Python) for these 3 sorting algorithms can be summarized with the following final values:
+* quick sort 14/seconds
+* merge sort 15/seconds
+* heap sort 19/seconds 
